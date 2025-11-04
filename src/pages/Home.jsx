@@ -1,4 +1,5 @@
 import React from "react";
+import photo5 from "../assets/photo5.jpg"; // added import
 
 const CONTACT_EMAIL = "jamisc@uw.edu";
 const LINKEDIN_URL = "https://www.linkedin.com/in/jamicanonizado/";
@@ -138,7 +139,7 @@ export default function Home() {
 
 					<div className="hero-media reveal">
 						<img
-							src="/assets/photo5.jpg"
+							src={photo5}
 							alt="Jamison Canonizado portrait"
 							loading="lazy"
 						/>
@@ -191,13 +192,6 @@ export default function Home() {
 						</figure>
 						<figure>
 							<img src="/assets/photo4.jpg" alt="Photo 4" loading="lazy" />
-						</figure>
-						<figure>
-							<img
-								src="/assets/photo5.jpg"
-								alt="Jamison smiling under cherry blossoms"
-								loading="lazy"
-							/>
 						</figure>
 					</div>
 				</div>
